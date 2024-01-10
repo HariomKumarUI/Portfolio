@@ -3,7 +3,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { pdfjs } from "react-pdf";
-import pdf from "../../Assets/HariomResume.pdf";
+import pdf from "../../Assets/Hariom_Kumar_Resume.pdf";
 import HariomKumar from "../../Assets/resumeimage.png";
 import Particle from "./Particle"
 import "./style.css"

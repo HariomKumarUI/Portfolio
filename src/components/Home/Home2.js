@@ -12,39 +12,57 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section py-0" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }} data-aos="fade-right">
-              <span className="primary-header"> ABOUT </span> ME
+            <h1 style={{ fontSize: "2.6em", textAlign:"left" }} data-aos="fade-right" className="text-left">
+              <span className="primary-header"> WORK </span> EXPERIENCE
             </h1>
-            <p className="home-about-body" data-aos="fade-up">
+            <p className="home-about-body pt-0" data-aos="fade-up">
               <br />
-              I'm a <i className="primary-header">
-                Self-Taught Web Developer
-              </i>{" "}
-              who loves solving problems and building Websites.
+              As a{" "}
+              <b className="primary-header">
+                Professional Front-end Designer
+              </b>{" "}
+              with over 7 years of experience, I specialize in creating dynamic,
+              responsive websites and web applications.
+              <br />
+              <br />
+              My expertise lies in{" "}
+              <b className="primary-header">
+                HTML5, CSS3, JavaScript, Bootstrap, and React JS
+              </b>
+              . I have a strong background in web design, with skills in CSS3,
+              Adobe Illustrator, and Graphic Design, ensuring aesthetically
+              pleasing and functional designs.
+              <br />
+              <br />
+              At <b className="primary-header">Source Soft Solutions Pvt. Ltd.,</b> I honed my skills in
+              developing rich internet applications and working with platforms
+              like Shopify, WordPress, Magento, Angular, and React JS. My
+              proficiency in converting PSD to HTML and ensuring cross-browser
+              compatibility has been instrumental in delivering high-quality web
+              solutions.
               <br />
               <br />I am passionate about{" "}
-              <i className="primary-header">technologies</i> and love to learn
-              new things.
-              <br />
-              <br />I am more interested in building new &nbsp;
-              <i>
-                <i className="primary-header">Web Technologies and Products.</i>
-              </i>
-              <br />
-              <br />I always apply my experience in developing products with{" "}
-              <i className="primary-header">React.js</i> 
+              <b className="primary-header">
+                leveraging new technologies and design principles
+              </b>{" "}
+              to create user-friendly web experiences. Always eager to embrace
+              new challenges, I am continuously expanding my portfolio with
+              innovative <i className="primary-header">projects</i>.
               <br />
               <br />
-              Currently expanding my portfolio by building more{" "}
-              <i className="primary-header">projects </i>projects that I can add
-              here.
+              With a knack for{" "}
+              <b className="primary-header">
+                responsive designs and mobile-first applications
+              </b>
+              , I am committed to learning and growing in the field of web
+              development.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar my-auto">
             <Tilt>
               <img
                 data-aos="fade-left"
@@ -55,8 +73,9 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="home-about-social pt-lg-5 mt-lg-5 pb-4">
             <h1 data-aos="fade-right">
               <span className="primary-header">CONNECT </span> WITH ME
             </h1>
@@ -73,7 +92,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              
+
               <li className="social-icons">
                 <a
                   href="mailto:kumarhariom498@gmail.com"
@@ -96,7 +115,6 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              
             </ul>
           </Col>
         </Row>

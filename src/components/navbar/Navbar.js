@@ -80,7 +80,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                About
+                Work Experience
               </Nav.Link>
             </Nav.Item>
 

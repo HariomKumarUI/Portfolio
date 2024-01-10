@@ -89,3 +89,19 @@
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
+
+.btnMain{width: 75%; margin-bottom: 25px; padding-bottom: 25px;}
+a.btn.btn-videDemo {
+  background: #333;
+  color: #fff;
+  position: absolute;
+  bottom: 25px;
+  margin: 0px auto 0px;
+}
+
+.designBox{padding: 15px;box-shadow: 0 0px 15px rgba(103, 103, 103, 0.15);border-radius: 20px;}
+.designBox img{width: 350px; height: 300px;object-fit: contain;}
+
+.designList{margin: 0; padding: 0;}
+.designList li{ list-style: none;}
+.designList li img{padding: 15px;box-shadow: 0 0px 15px rgba(103, 103, 103, 0.15);border-radius: 20px;width: 294px; height: 250px;object-fit: contain; margin: 15px; gap: 15px;}
