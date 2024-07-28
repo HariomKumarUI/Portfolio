@@ -25,7 +25,7 @@ function Home2() {
               <b className="primary-header">
                 Professional Front-end Designer
               </b>{" "}
-              with over 7 years of experience, I specialize in creating dynamic,
+              with over 10+ years of experience, I specialize in creating dynamic,
               responsive websites and web applications.
               <br />
               <br />
